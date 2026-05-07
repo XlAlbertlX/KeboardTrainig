@@ -1,0 +1,31 @@
+.keyboard-block {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 150px;
+}
+
+.keyboard-block__keyboard-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyboard-block__key {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+.keyboard-block__key--pressed {
+    background-color: rgb(146 255 148);
+}

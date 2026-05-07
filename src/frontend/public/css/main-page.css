@@ -1,0 +1,40 @@
+:root {
+    --border-line: rgb(145, 145, 145);
+}
+
+.theme-change-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: var(--border-line) solid 3px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.statistic-block {
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 15px;
+    border-radius: 0 0 5px 5px;
+}
+
+.words-wrapper {
+    width: auto;
+    max-width: 1000px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    color: rgb(102, 102, 102);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: var(--border-line) solid 2px;
+    padding: 20px 40px;
+}
