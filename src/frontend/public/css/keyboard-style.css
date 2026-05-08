@@ -25,7 +25,3 @@
     border: black solid 1px;
     border-radius: 10px;
 }
-
-.keyboard-block__key--pressed {
-    background-color: rgb(146 255 148);
-}
