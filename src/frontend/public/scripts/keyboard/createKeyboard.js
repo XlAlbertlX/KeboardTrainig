@@ -1,4 +1,5 @@
 import Notification from '../../common/Notification.js'
+import Dictionary from '../dictionary/Dictionary.js'
 const KeyboardBlock = document.querySelector('.keyboard-block');
 const ChangeLayoutNotification = new Notification("Переключите раскладку!");
 const Color = {
@@ -25,6 +26,16 @@ document.addEventListener('keydown', (e) => {
 
 
 function createKeyboard() {
+    const dic = new Dictionary();
+
+
+    for(let i = 0; i < 10; i++) {
+        console.log(dic.getRandomStringFromDictionary());
+    }
+
+
+
+
     //массив рядов клавиатуры
     const keysValues = [
         ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'backspace'],
